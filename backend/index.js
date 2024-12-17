@@ -22,7 +22,7 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(bodyParser.json())
 
 const PORT = process.env.PORT || 5003
-const __dirname = path.resolve()
+//const __dirname = path.resolve()
 
 //basic authentication to the admin route
 app.use("/admin", basicAuth)
