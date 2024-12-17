@@ -1,15 +1,15 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/admin/allbookings/[id]/page": "app/admin/allbookings/[id]/page.js",
-  "/admin/packages/[id]/page": "app/admin/packages/[id]/page.js",
-  "/admin/packages/addPackage/page": "app/admin/packages/addPackage/page.js",
   "/admin/page": "app/admin/page.js",
-  "/admin/allbookings/page": "app/admin/allbookings/page.js",
-  "/admin/packages/page": "app/admin/packages/page.js",
   "/bookings/page": "app/bookings/page.js",
+  "/admin/packages/page": "app/admin/packages/page.js",
+  "/packages/[id]/page": "app/packages/[id]/page.js",
+  "/admin/allbookings/page": "app/admin/allbookings/page.js",
   "/bookings/confirmations/page": "app/bookings/confirmations/page.js",
+  "/admin/allbookings/[id]/page": "app/admin/allbookings/[id]/page.js",
   "/page": "app/page.js",
+  "/admin/packages/[id]/page": "app/admin/packages/[id]/page.js",
   "/packages/page": "app/packages/page.js",
-  "/packages/[id]/page": "app/packages/[id]/page.js"
+  "/admin/packages/addPackage/page": "app/admin/packages/addPackage/page.js"
 }
