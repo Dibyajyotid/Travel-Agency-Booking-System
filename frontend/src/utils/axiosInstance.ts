@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: process.env.MODE ==="development" ? "http://localhost:5003" : "/",
+  baseURL: "https://travel-agency-booking-system-sl3v.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
