@@ -3,7 +3,6 @@ const dotenv = require("dotenv")
 const cors = require("cors")
 const bodyParser = require("body-parser")
 const connectDB = require("./lib/db.js")
-const path = require("path")
 //const cors = require("cors");
 
 const packageRoutes = require("./routes/packageRoutes.js")
@@ -30,10 +29,6 @@ app.use("/admin", basicAuth)
 app.use("/packages", packageRoutes)
 app.use("/bookings", bookingRoutes)
 app.use("/admin", adminRoutes)
-
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static(path.join(__dirname, "../frontend/.next")))
-}
 
 app.listen(PORT, () => {
     console.log(`server is running on http://localhost:${PORT}`)
