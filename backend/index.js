@@ -33,10 +33,6 @@ app.use("/admin", adminRoutes)
 
 if(process.env.NODE_ENV === "production"){
     app.use(express.static(path.join(__dirname, "../frontend/.next")))
-
-    app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname, "../frontend", ".next"))
-    })
 }
 
 app.listen(PORT, () => {
